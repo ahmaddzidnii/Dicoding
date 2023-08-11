@@ -14,7 +14,7 @@ const App = () => {
       <BrowserRouter>
             <NavbarComponent/>
         <Routes>
-          <Route path ='/checkidgame' element ={<CheckId/>}/>
+          <Route path ='/' element ={<CheckId/>}/>
           
         </Routes>
       </BrowserRouter>
