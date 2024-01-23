@@ -1,0 +1,15 @@
+{
+  "name": "booksehelf-api",
+  "version": "1.0.0",
+  "description": "tugas dicoding",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "nanoid": "^3.1.25"
+  }
+}
