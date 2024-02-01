@@ -71,6 +71,7 @@ body {
 
 .main {
   min-height: 100vh;
+  margin-top: 16px;
   margin-bottom: 24px;
   display: flex;
   gap: 24px;
@@ -201,7 +202,13 @@ footer .copyright-footer {
 }
 
 .github-icon {
+  display: flex;
   width: 36px;
   height: 36px;
   color: var(--secondary-background-color);
+}
+
+#clock {
+  font-size: 40px;
+  font-weight: bold;
 }
